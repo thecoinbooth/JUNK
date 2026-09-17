@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090b0d" />
+  <meta name="description" content="JUNK — a neon alley story powered by art, community and one lucky coin." />
+  <title>JUNK — The Lucky Coin</title>
+  <link rel="preload" as="image" href="assets/hero.webp" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="JUNK home">
+      <span class="brand-mark">J</span>
+      <span>JUNK</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+
+    <nav id="nav-menu" class="nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#tokenomics">Tokenomics</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#socials">Socials</a>
+    </nav>
+
+    <button class="wallet-button js-wallet" type="button">Connect Wallet</button>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/hero.webp" alt="Junk the raccoon looking over a neon city and a holographic Diamond Mountain" />
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Welcome to Junk's Alley</p>
+        <h1 id="hero-title"><span>The trash.</span><br />The treasure.<br /><em>The coin.</em></h1>
+        <p class="hero-intro">One raccoon found what the city threw away. Now the whole alley is hunting for the next lucky break.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#how-to-buy">Buy $JUNK</a>
+          <a class="button button-ghost" href="#story">Enter the alley</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#story" aria-label="Scroll to story"><span></span>SCROLL</a>
+    </section>
+
+    <div class="ticker" aria-label="JUNK slogan ticker">
+      <div class="ticker-track">
+        <span>ONE DEGEN'S TRASH IS ANOTHER DEGEN'S TREASURE ✦</span>
+        <span>ONE DEGEN'S TRASH IS ANOTHER DEGEN'S TREASURE ✦</span>
+        <span>ONE DEGEN'S TRASH IS ANOTHER DEGEN'S TREASURE ✦</span>
+        <span>ONE DEGEN'S TRASH IS ANOTHER DEGEN'S TREASURE ✦</span>
+      </div>
+    </div>
+
+    <section class="section story" id="story">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / Origin story</p>
+        <h2>Born in the alley.<br /><span>Built for the moon.</span></h2>
+      </div>
+      <div class="story-grid">
+        <figure class="art-card art-card-wide reveal">
+          <img src="assets/alley.webp" alt="Three versions of Junk in a neon alley: dreamer, scavenger and graffiti king" loading="lazy" />
+          <figcaption>Dreamer. Scavenger. Graffiti king.</figcaption>
+        </figure>
+        <div class="story-copy reveal">
+          <p class="lede">Junk is the raccoon nobody invited—and the one everybody remembers.</p>
+          <p>He digs through abandoned tech, paints the city walls, and follows a hand-drawn map toward Diamond Mountain. Then a mysterious coin turns the entire alley upside down.</p>
+          <div class="quote">“One degen’s trash is another degen’s treasure.”</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-art reveal">
+        <div class="coin-orbit" aria-hidden="true"><span>J</span></div>
+        <img src="assets/character.webp" alt="Junk holding a glowing gold coin in front of a dumpster" loading="lazy" />
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">02 / Meet Junk</p>
+        <h2>Not just another<br /><span>trash panda.</span></h2>
+        <p>Junk is a story-first character universe wrapped in neon grime, street art and chaotic optimism. The lucky coin is the key to every chapter—and the community helps decide where the map leads next.</p>
+        <div class="stat-strip">
+          <div><strong>24/7</strong><span>Alley energy</span></div>
+          <div><strong>1B</strong><span>Total supply</span></div>
+          <div><strong>0%</strong><span>Tax</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tokenomics" id="tokenomics">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">03 / Tokenomics</p>
+        <h2>Simple by design.<br /><span>Wild by nature.</span></h2>
+      </div>
+      <div class="token-grid">
+        <article class="token-card reveal"><span class="card-number">01</span><p>Token</p><h3>$JUNK</h3></article>
+        <article class="token-card reveal"><span class="card-number">02</span><p>Supply</p><h3>1,000,000,000</h3></article>
+        <article class="token-card reveal"><span class="card-number">03</span><p>Tax</p><h3>0 / 0</h3></article>
+        <article class="token-card reveal"><span class="card-number">04</span><p>Liquidity</p><h3>Locked</h3></article>
+      </div>
+      <div class="contract reveal">
+        <div>
+          <span>Contract address</span>
+          <code id="contract-address">PASTE_YOUR_TOKEN_CONTRACT_ADDRESS_HERE</code>
+        </div>
+        <button class="copy-button" type="button" data-copy="#contract-address">Copy</button>
+      </div>
+    </section>
+
+    <section class="section how-to-buy" id="how-to-buy">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / How to buy</p>
+        <h2>Find the coin.<br /><span>Join the hunt.</span></h2>
+      </div>
+      <div class="steps">
+        <article class="step reveal"><span>01</span><div><h3>Get a wallet</h3><p>Install a Solana-compatible wallet and protect the recovery phrase.</p></div></article>
+        <article class="step reveal"><span>02</span><div><h3>Load up SOL</h3><p>Buy SOL through your preferred exchange and send it to your wallet.</p></div></article>
+        <article class="step reveal"><span>03</span><div><h3>Find $JUNK</h3><p>Use the official contract address above in your preferred swap platform.</p></div></article>
+        <article class="step reveal"><span>04</span><div><h3>Swap and celebrate</h3><p>Confirm the transaction. Welcome to the alley.</p></div></article>
+      </div>
+      <p class="disclaimer">Demo content only. Replace links, token details and instructions with verified project information before publishing.</p>
+    </section>
+
+    <section class="section roadmap" id="roadmap">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">05 / Roadmap</p>
+        <h2>The road to<br /><span>Diamond Mountain.</span></h2>
+      </div>
+      <div class="roadmap-line" aria-hidden="true"></div>
+      <div class="roadmap-grid">
+        <article class="roadmap-card reveal"><span>Phase 01</span><h3>Open the alley</h3><p>Launch the world, introduce Junk and gather the first scavengers.</p></article>
+        <article class="roadmap-card reveal"><span>Phase 02</span><h3>Find the signal</h3><p>Community quests, lore drops, stickers, memes and animated chapters.</p></article>
+        <article class="roadmap-card reveal"><span>Phase 03</span><h3>Climb the mountain</h3><p>Expand the ecosystem with collectible art and community-built stories.</p></article>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="gallery-header reveal">
+        <div>
+          <p class="eyebrow">06 / Episode one</p>
+          <h2>The lucky coin.</h2>
+        </div>
+        <p>A cinematic storyboard introducing the city, the alley, the coin and the mystery waiting beneath it.</p>
+      </div>
+      <button class="storyboard reveal" type="button" aria-label="Open storyboard image">
+        <img src="assets/storyboard.webp" alt="Storyboard for Junk episode one, The Lucky Coin" loading="lazy" />
+        <span>View full storyboard</span>
+      </button>
+    </section>
+
+    <section class="final-cta" id="socials">
+      <div class="final-glow" aria-hidden="true"></div>
+      <div class="final-content reveal">
+        <p class="eyebrow">The alley is open</p>
+        <h2>Ready to get<br /><span>your paws dirty?</span></h2>
+        <div class="social-links">
+          <a href="#" aria-label="X / Twitter placeholder">X</a>
+          <a href="#" aria-label="Telegram placeholder">TG</a>
+          <a href="#" aria-label="Discord placeholder">DC</a>
+        </div>
+        <button class="button button-primary js-wallet" type="button">Connect Wallet</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><span class="brand-mark">J</span><span>JUNK</span></a>
+    <p>© <span id="year"></span> JUNK. All rights reserved.</p>
+    <p class="footer-note">Not financial advice. Always verify official links and do your own research.</p>
+  </footer>
+
+  <dialog class="modal" id="wallet-modal">
+    <button class="modal-close" type="button" aria-label="Close modal">×</button>
+    <p class="eyebrow">Demo interaction</p>
+    <h2>Wallet connection<br />goes here.</h2>
+    <p>This first draft is static and safe. Connect this button to your preferred wallet provider only after your official project details are ready.</p>
+    <button class="button button-primary modal-dismiss" type="button">Got it</button>
+  </dialog>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="modal-close lightbox-close" type="button" aria-label="Close storyboard">×</button>
+    <img src="assets/storyboard.webp" alt="Full storyboard for Junk episode one" />
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
